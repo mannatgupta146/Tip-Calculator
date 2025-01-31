@@ -12,32 +12,23 @@
         <h1>Tip Calculator</h1>
 
         <div class="input-group">
-            <label for="billAmount">Bill Amount:</label>
-            <input type="number" id="billAmount" placeholder="Enter the Bill Amount">
+            <label for="billAmount">Bill Amount (₹):</label>
+            <input type="number" id="billAmount" placeholder="Enter Bill Amount">
         </div>
 
         <div class="input-group">
             <label for="serviceRating">Service Rating:</label>
             <select id="serviceRating">
-                <option value="1">Poor</option>
-                <option value="2">Average</option>
-                <option value="3">Good</option>
-                <option value="4">Excellent</option>
+                <option value="1">Poor (1%)</option>
+                <option value="2">Average (2%)</option>
+                <option value="3">Good (3%)</option>
+                <option value="5">Excellent (5%)</option>
             </select>
         </div>
 
         <div class="input-group">
-            <label for="splitCount"> Number of People:</label>
-            <input type="number" id="splitCount" placeholder="Enter the number of people">
-        </div>
-
-        <div class="input-group">
-            <label for="mealType">Meal Type:</label>
-            <select id="mealType">
-                <option value="breakfast">Breakfast</option>
-                <option value="lunch">Lunch</option>
-                <option value="dinner">Dinner</option>
-            </select>
+            <label for="splitCount">Number of People:</label>
+            <input type="number" id="splitCount" placeholder="Enter Number of People">
         </div>
 
         <div class="result">
@@ -50,7 +41,6 @@
         <button id="calculateBtn">Calculate</button>
 
     </div>
-
 
     <script src="script.js"></script>
 </body>
